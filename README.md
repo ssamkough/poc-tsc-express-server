@@ -2,7 +2,7 @@
 
 Basic TypeScript + Express server where you can create, read, update, delete (CRUD).
 
-## Getting Started
+## Getting Started :memo:
 
 ### Prerequisites
 
@@ -48,7 +48,7 @@ After, open up Postman and create a POST method with the following JSON:
 
 Run that HTTP request. If you refresh the page, you'll now see your JSON object.
 
-## Deployment
+## Deployment :rocket:
 
 To run the app:
 
@@ -56,12 +56,12 @@ To run the app:
 npm run dev
 ```
 
-## Built With
+## Built With :hammer:
 
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
 - [Postman](https://www.getpostman.com/) - API client
 
-## Acknowledgments
+## Acknowledgments :clap:
 
 - [Traversy Media - TypeScript Setup With Node & Express](https://www.youtube.com/watch?v=zRo2tvQpus8)
 - [Alexandre Rousseau - Building an API with TypeScript, Express.js and Sequelize](http://rousseau-alexandre.fr/en/programming/2019/06/19/express-typescript.html)
