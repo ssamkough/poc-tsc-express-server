@@ -8,11 +8,12 @@ Basic TypeScript + Express server where you can create, read, update, delete (CR
 
 You should have installed:
 
-- Node.js
+- [Node.js](https://nodejs.org/)
+- API Client (I'm using [Postman](https://www.getpostman.com/))
 
 ### Installing
 
-Once Node.js is installed, open up a fresh directory where your project will live and create initialize npm:
+Once Node.js is installed, open up a fresh directory where your project will live and initialize npm:
 
 ```
 npm init
@@ -27,29 +28,25 @@ npm i --save express body-parser
 npm i --save-dev typescript ts-node nodemon @types/express @types/node
 ```
 
-Now we have to initalize our tsconfig.json:
+Finally clone the repository and your all set.
 
+### Demo
+
+To demo the app, run your server:
 ```
-tsc --init
+npm run dev
 ```
 
-In our file, make sure to copy and paste this in there:
+It should be running on localhost:3000. Open up localhost:3000/nodes on your browser.
 
+After, open up Postman and create a POST method with the following JSON:
 ```
 {
-  "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "pretty": true,
-    "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./lib"
-  },
-  "include": ["lib/**/*.ts"],
-  "exclude": ["node_modules"]
+  "name": "john"
 }
 ```
+
+Run that HTTP request. If you refresh the page, you'll now see your JSON object.
 
 ## Deployment
 
