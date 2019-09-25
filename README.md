@@ -1,6 +1,6 @@
 # Basic TypeScript + Express Server :cake:
 
-Basic TypeScript + Express server where you can create, read, update, delete (CRUD). Give me something harder @tambykojak.
+Basic TypeScript + Express server where you can create, read, update, delete (CRUD).
 
 ## Getting Started
 
