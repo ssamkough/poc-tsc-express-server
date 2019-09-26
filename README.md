@@ -13,15 +13,7 @@ You should have installed:
 
 ### Installing
 
-Once Node.js is installed, open up a fresh directory where your project will live and initialize npm:
-
-```
-npm init
-```
-
-When prompted to create the package.json file, you can leave everything blank **except** for your **entry point**. Make sure your entry point is "server.js", not the default "index.js".
-
-After that, install these packages:
+Once Node.js is installed, install these packages:
 
 ```
 npm i --save express body-parser
